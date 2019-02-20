@@ -8,18 +8,18 @@ import './../scss/index.scss'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Tutorial"
+      title="Кератиновое выарямление волос в Минске"
       meta={[
-        { name: 'description', content: 'BLACKTIE' },
-        { name: 'keywords', content: 'black, ties' },
+        { name: 'description', content: 'кератиновое выпрямление волос' },
+        { name: 'keywords', content: 'кератин, минск, кератиновое выпрямление волос' },
       ]}
     />
     <div>
       <div className="menu">
-        <div className="logo">BLACKTIE.CO</div>
+        <div className="logo">Кератиновое выпрямление волос в Минске</div>
         <div className="menu-list hidden-xs">
-          <Link to="/">Home</Link>
-          <Link to="/pricing">Pricing</Link>
+          <Link to="/">Домой</Link>
+          <Link to="/pricing">Цены</Link>
         </div>
         <div className="clear"></div>
       </div>
@@ -27,18 +27,13 @@ const TemplateWrapper = ({ children }) => (
       <div className="footer">
         <div className="container">
           <div className="row centered">
-            <h2>You Can Contact Us</h2>
-            <h5>HELLO@LANDINGSUMO.COM</h5>
+            <h2>Контакты</h2>
+            <h5>+375 (29) 135-17-90</h5>
 
             <p className="mt">
-              <a href="#"><i className="ion-social-twitter"></i></a>
-              <a href="#"><i className="ion-social-dribbble"></i></a>
-              <a href="#"><i className="ion-social-instagram"></i></a>
-              <a href="#"><i className="ion-social-facebook"></i></a>
-              <a href="#"><i className="ion-social-pinterest"></i></a>
-              <a href="#"><i className="ion-social-tumblr"></i></a>
+              <a href="https://www.instagram.com/keratin_darya.minsk/"><i className="ion-social-instagram"></i></a>
             </p>
-            <h6 className="mt">COPYRIGHT 2014 - LANDING SUMO</h6>
+            <h6 className="mt">COPYRIGHT 2019 - Andrew Kuzmin</h6>
           </div>
         </div>
       </div>

@@ -38,9 +38,9 @@ class IndexPage extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 centered">
-                <h1>Welcome to our new app site.<br />Sign up now & prepare to enjoy our service.</h1>
+                <h1>Акция<br />Требуются модели. Оплата только за материалы</h1>
                 <div className="mtb">
-                  <form role="form" action="register.php" method="post" enctype="plain">
+                  {/* <form role="form" action="register.php" method="post" enctype="plain">
                     <input
                       type="email"
                       name="email"
@@ -53,14 +53,13 @@ class IndexPage extends React.Component {
                       className='btn btn-conf btn-green'
                       type="submit"
                       onClick={() => this.handleSubscribeClick()}>Sart your free trial</button>
-                  </form>
+                  </form> */}
                 </div>
-                <h6>30 DAY FREE TRIAL - NO CREDIT CARD NEEDED.</h6>
               </div>
             </div>
           </div>
         </div>
-        <div className="container ptb">
+        {/* <div className="container ptb">
           <div className="row">
             <div className="col-md-6">
               <h2>All the features you want in this kind of apps you'll got it here.</h2>
@@ -74,18 +73,20 @@ class IndexPage extends React.Component {
               <img src={phoneImg} className="img-responsive mt" alt="" />
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div id="sep">
           <div className="container">
             <div className="row centered">
               <div className="col-md-8 col-md-offset-2">
-                <h1>Join your experiences with the people you care more. Let us help you.</h1>
-                <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h4>
+                <h1>Только профессиональная работа с качественными материалами.</h1>
+                <h4>Сертифицированный специалист. Используются материалы компании Vitaker.</h4>
                 <p>
-                  <button className="btn btn-conf-2 btn-green">
-                    Learn More
-                  </button>
+                  <a href="https://www.vitakercosmetics.com/">
+                    <button  className="btn btn-conf-2 btn-green">
+                      Узнать больше
+                    </button>
+                  </a>
                 </p>
               </div>
             </div>

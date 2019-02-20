@@ -11,25 +11,26 @@ const Pricing = () => (
   <div>
     <div className="container ptb">
       <div className="row centered">
-        <h2 className="mb">Our Pricing Model<br />It's Quite Easy To Understand.</h2>
+        <h2 className="mb">Лучшие цены в Минске</h2>
         <div className="col-md-4">
           <div className="price-table">
             <div className="p-head">
-              Standard
+              20 - 30 см
             </div>
             <div className="p-body">
-              <ul className="features">
+              {/* <ul className="features">
                 <li>10GB Storage Space</li>
                 <li>Free Support</li>
                 <li>100 Users</li>
                 <li>100GB Bandwith</li>
-              </ul>
+              </ul> */}
               <div className="price">
-                <span className="sub">$</span>
-                <span className="detail">29</span>
-                <span className="sub">/mo.</span>
+                <span className="sub">BYN</span>
+                <span className="detail">35 - 50</span>
               </div>
-              <button className="btn btn-conf-2 btn-green">Subscribe Now</button>
+                <a href="https://www.instagram.com/keratin_darya.minsk/">
+                  <button className="btn btn-conf-2 btn-green">Записаться</button>
+                </a>  
             </div>
           </div>
         </div>
@@ -37,21 +38,22 @@ const Pricing = () => (
         <div className="col-md-4">
           <div className="price-table">
             <div className="p-head">
-              Business
+              30 - 35 см
             </div>
             <div className="p-body">
-              <ul className="features">
-                <li>50GB Storage Space</li>
+              {/* <ul className="features">
+                <li>10GB Storage Space</li>
                 <li>Free Support</li>
-                <li>500 Users</li>
-                <li>500GB Bandwith</li>
-              </ul>
+                <li>100 Users</li>
+                <li>100GB Bandwith</li>
+              </ul> */}
               <div className="price">
-                <span className="sub">$</span>
-                <span className="detail">49</span>
-                <span className="sub">/mo.</span>
+                <span className="sub">BYN</span>
+                <span className="detail">50 - 60</span>
               </div>
-              <button className="btn btn-conf-2 btn-green">Subscribe Now</button>
+                <a href="https://www.instagram.com/keratin_darya.minsk/">
+                  <button className="btn btn-conf-2 btn-green">Записаться</button>
+                </a>  
             </div>
           </div>
         </div>
@@ -59,46 +61,49 @@ const Pricing = () => (
         <div className="col-md-4">
           <div className="price-table">
             <div className="p-head">
-              Corporate
+              35 - 40 см
             </div>
             <div className="p-body">
-              <ul className="features">
-                <li>100GB Storage Space</li>
+              {/* <ul className="features">
+                <li>10GB Storage Space</li>
                 <li>Free Support</li>
-                <li>10,000 Users</li>
-                <li>3TB Bandwith</li>
-              </ul>
+                <li>100 Users</li>
+                <li>100GB Bandwith</li>
+              </ul> */}
               <div className="price">
-                <span className="sub">$</span>
-                <span className="detail">89</span>
-                <span className="sub">/mo.</span>
+                <span className="sub">BYN</span>
+                <span className="detail">60 - 80</span>
               </div>
-              <button className="btn btn-conf-2 btn-green">Subscribe Now</button>
+                <a href="https://www.instagram.com/keratin_darya.minsk/">
+                  <button className="btn btn-conf-2 btn-green">Записаться</button>
+                </a>  
             </div>
           </div>
         </div>
-      </div>
-    </div>
 
-    <div id="g">
-      <div className="container">
-        <div className="row sponsor centered">
-          <div className="col-sm-2 col-sm-offset-1">
-            <img src={client1Img} alt="" />
-          </div>
-          <div className="col-sm-2">
-            <img src={client3Img} alt="" />
-          </div>
-          <div className="col-sm-2">
-            <img src={client2Img} alt="" />
-          </div>
-          <div className="col-sm-2">
-            <img src={client4Img} alt="" />
-          </div>
-          <div className="col-sm-2">
-            <img src={client5Img} alt="" />
+        <div className="col-md-4">
+          <div className="price-table">
+            <div className="p-head">
+              40 - 45 см
+            </div>
+            <div className="p-body">
+              {/* <ul className="features">
+                <li>10GB Storage Space</li>
+                <li>Free Support</li>
+                <li>100 Users</li>
+                <li>100GB Bandwith</li>
+              </ul> */}
+              <div className="price">
+                <span className="sub">BYN</span>
+                <span className="detail">80 - 90</span>
+              </div>
+                <a href="https://www.instagram.com/keratin_darya.minsk/">
+                  <button className="btn btn-conf-2 btn-green">Записаться</button>
+                </a>  
+            </div>
           </div>
         </div>
+
       </div>
     </div>
 
@@ -110,16 +115,7 @@ const Pricing = () => (
 
               <div className="carousel-inner">
                 <div className="item active">
-                  <h3>I enjoyed so much the last edition of Landing Sumo, that I bought the tickets for the new one edition of the event the first day.</h3>
-                  <h5>DAVID JHONSON</h5>
-                </div>
-                <div className="item">
-                  <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
-                  <h5>MARK LAWRENCE</h5>
-                </div>
-                <div className="item">
-                  <h3>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration, by injected humour.</h3>
-                  <h5>LISA SMITH</h5>
+                  <h3>В данный момент действует акция: Оплата только материала (цены в 2 раза меньше указанных).</h3>
                 </div>
               </div>
             </div>
